@@ -8,9 +8,9 @@
 using ::testing::_;
 using ::testing::Return;
 
-MOCK_FUNC(float, sub, (float a, float b), a, b)
-MOCK_FUNC(void *, malloc, (size_t size), size)
-MOCK_FUNC(int, gethostname, (char *name, size_t len), name, len)
+MOCK_FUNC(void *, malloc, (size_t size), (size))
+MOCK_FUNC(int, gethostname, (char *name, size_t len), (name, len))
+MOCK_FUNC(float, sub, (float a, float b), (a, b))
 
 TEST(MyMathTest, mockMalloc)
 {
