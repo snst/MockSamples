@@ -1,3 +1,4 @@
+// Copyright (c) 2024 Stefan Schmidt
 #include "my_calculator.h"
 #include <stdio.h>
 #include <math.h>

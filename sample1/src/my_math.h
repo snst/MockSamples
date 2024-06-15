@@ -1,3 +1,4 @@
+// Copyright (c) 2024 Stefan Schmidt
 #ifndef MY_MATH_H
 #define MY_MATH_H
 

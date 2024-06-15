@@ -1,3 +1,4 @@
+// Copyright (c) 2024 Stefan Schmidt
 #ifndef MY_CALCULATOR_H
 #define MY_CALCULATOR_H
 

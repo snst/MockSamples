@@ -1,3 +1,4 @@
+// Copyright (c) 2024 Stefan Schmidt
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include <math.h>

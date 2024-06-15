@@ -1,3 +1,4 @@
+// Copyright (c) 2024 Stefan Schmidt
 #ifndef MOCK_ADD_H
 #define MOCK_ADD_H
 
