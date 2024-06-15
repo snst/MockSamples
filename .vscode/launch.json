@@ -7,35 +7,42 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug sample1",
-            "program": "${workspaceFolder}/sample1/build/test/sample1",
+            "name": "sample1_test1",
+            "program": "${workspaceFolder}/sample1/build/test1",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug sample2_1",
-            "program": "${workspaceFolder}/sample2/build/sample2_1",
+            "name": "sample1_test2",
+            "program": "${workspaceFolder}/sample1/build/test2",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug sample2_2",
-            "program": "${workspaceFolder}/sample2/build/sample2_2",
+            "name": "sample1_test3",
+            "program": "${workspaceFolder}/sample1/build/test3",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug sample2_3",
-            "program": "${workspaceFolder}/sample2/build/sample2_3",
+            "name": "sample2_test1",
+            "program": "${workspaceFolder}/sample2/build/test/test1",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
-        
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "sample3_test1",
+            "program": "${workspaceFolder}/sample3/build/test/test1",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
     ]
 }
