@@ -13,9 +13,9 @@ public:
     }
     ~MockPowf()
     {
-        release();
+        disable();
     }
-    void release() {
+    void disable() {
         MockPowf::mock = nullptr;
     }
     MOCK_METHOD(float, powf, (float a, float b));

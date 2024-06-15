@@ -21,4 +21,9 @@ TEST(Test2, mockGethostname)
     ret = gethostname(name, sizeof(name));
     printf("%d: %s\n", ret, name);
     EXPECT_EQ(11, ret);
+
+    mock.disable();
+    ret = gethostname(name, sizeof(name));
+    printf("%d: %s\n", ret, name);
+    EXPECT_EQ(0, ret);
 }

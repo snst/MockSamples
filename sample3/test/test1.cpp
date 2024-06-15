@@ -15,7 +15,7 @@ TEST(Test1, mockMalloc)
     void *p = malloc(99);
     EXPECT_EQ(nullptr, p);
 
-    mock.release();
+    mock.disable();
     p = malloc(99);
     EXPECT_NE(nullptr, p);
     free(p);

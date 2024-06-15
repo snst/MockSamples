@@ -14,9 +14,9 @@ public:
     }
     ~MockAdd()
     {
-        release();
+        disable();
     }
-    void release() {
+    void disable() {
         MockAdd::mock = nullptr;
     }
     MOCK_METHOD(float, add, (float a, float b));

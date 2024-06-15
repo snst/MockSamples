@@ -25,7 +25,7 @@ TEST(Sample1, mockAdd)
 
     EXPECT_EQ(calculate("4 + 8"), 22);
 
-    mock.release();
+    mock.disable();
     EXPECT_EQ(12, calculate("4 + 8"));
 }
 
@@ -38,7 +38,7 @@ TEST(Sample1, mockPowf)
 
     EXPECT_EQ(calculate("4 ^ 8"), 22);
 
-    mock.release();
+    mock.disable();
     EXPECT_EQ(65536, calculate("4 ^ 8"));
 }
 
