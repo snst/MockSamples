@@ -10,4 +10,4 @@ add_executable(sample2_2 sample2_2.cpp)
 target_link_libraries(sample2_2 -lgtest -lgmock pthread -Wl,--wrap=malloc )
 
 add_executable(sample2_3 sample2_3.cpp)
-target_link_libraries(sample2_3 -lgtest -lgmock pthread -Wl,--wrap=malloc )
+target_link_libraries(sample2_3 -lgtest -lgmock pthread -Wl,--wrap=malloc,--wrap=gethostname)
